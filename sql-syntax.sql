@@ -72,9 +72,8 @@ Data Data Manipulation Language : DML
     - DELETE
 */
 
-แสดงข้อมูลที่อยู่ใน Table โดยต้องกำหนด Attributes ที่จะนำมาแสดง
-และต้องใช้เสมอ FROM เพื่อบอกว่าจะดึงข้อมูลมาจาก Table ไหน
- */
+/* แสดงข้อมูลที่อยู่ใน Table โดยต้องกำหนด Attributes ที่จะนำมาแสดง
+และต้องใช้ FROM เสมอเพื่อบอกว่าจะดึงข้อมูลมาจาก Table ไหน */
 SELECT staff.staffNO, staff.fName, staff.lName, staff.salary
 FROM staff;
 
